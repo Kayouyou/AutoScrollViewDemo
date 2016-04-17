@@ -16,6 +16,7 @@
 		EF07CC6C1CC3348F00213297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF07CC6A1CC3348F00213297 /* LaunchScreen.storyboard */; };
 		EF07CC771CC3348F00213297 /* ADScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF07CC761CC3348F00213297 /* ADScrollViewTests.m */; };
 		EF07CC821CC3348F00213297 /* ADScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF07CC811CC3348F00213297 /* ADScrollViewUITests.m */; };
+		EF07CC911CC335CA00213297 /* ADScrollViewComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = EF07CC901CC335CA00213297 /* ADScrollViewComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EF07CC7D1CC3348F00213297 /* ADScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF07CC811CC3348F00213297 /* ADScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADScrollViewUITests.m; sourceTree = "<group>"; };
 		EF07CC831CC3348F00213297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF07CC8F1CC335CA00213297 /* ADScrollViewComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADScrollViewComponent.h; sourceTree = "<group>"; };
+		EF07CC901CC335CA00213297 /* ADScrollViewComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADScrollViewComponent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				EF07CC6D1CC3348F00213297 /* Info.plist */,
 				EF07CC651CC3348F00213297 /* ADScrollView.xcdatamodeld */,
 				EF07CC591CC3348F00213297 /* Supporting Files */,
+				EF07CC8F1CC335CA00213297 /* ADScrollViewComponent.h */,
+				EF07CC901CC335CA00213297 /* ADScrollViewComponent.m */,
 			);
 			path = ADScrollView;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				EF07CC671CC3348F00213297 /* ADScrollView.xcdatamodeld in Sources */,
 				EF07CC611CC3348F00213297 /* ViewController.m in Sources */,
 				EF07CC5E1CC3348F00213297 /* AppDelegate.m in Sources */,
+				EF07CC911CC335CA00213297 /* ADScrollViewComponent.m in Sources */,
 				EF07CC5B1CC3348F00213297 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
