@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF07CC5B1CC3348F00213297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF07CC5A1CC3348F00213297 /* main.m */; };
+		EF07CC5E1CC3348F00213297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF07CC5D1CC3348F00213297 /* AppDelegate.m */; };
+		EF07CC611CC3348F00213297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF07CC601CC3348F00213297 /* ViewController.m */; };
+		EF07CC641CC3348F00213297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF07CC621CC3348F00213297 /* Main.storyboard */; };
+		EF07CC671CC3348F00213297 /* ADScrollView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF07CC651CC3348F00213297 /* ADScrollView.xcdatamodeld */; };
+		EF07CC691CC3348F00213297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF07CC681CC3348F00213297 /* Assets.xcassets */; };
+		EF07CC6C1CC3348F00213297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF07CC6A1CC3348F00213297 /* LaunchScreen.storyboard */; };
+		EF07CC771CC3348F00213297 /* ADScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF07CC761CC3348F00213297 /* ADScrollViewTests.m */; };
+		EF07CC821CC3348F00213297 /* ADScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF07CC811CC3348F00213297 /* ADScrollViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF07CC731CC3348F00213297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF07CC4E1CC3348F00213297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF07CC551CC3348F00213297;
+			remoteInfo = ADScrollView;
+		};
+		EF07CC7E1CC3348F00213297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF07CC4E1CC3348F00213297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF07CC551CC3348F00213297;
+			remoteInfo = ADScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF07CC561CC3348F00213297 /* ADScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF07CC5A1CC3348F00213297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF07CC5C1CC3348F00213297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF07CC5D1CC3348F00213297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF07CC5F1CC3348F00213297 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF07CC601CC3348F00213297 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF07CC631CC3348F00213297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF07CC661CC3348F00213297 /* ADScrollView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ADScrollView.xcdatamodel; sourceTree = "<group>"; };
+		EF07CC681CC3348F00213297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF07CC6B1CC3348F00213297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF07CC6D1CC3348F00213297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF07CC721CC3348F00213297 /* ADScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF07CC761CC3348F00213297 /* ADScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADScrollViewTests.m; sourceTree = "<group>"; };
+		EF07CC781CC3348F00213297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF07CC7D1CC3348F00213297 /* ADScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF07CC811CC3348F00213297 /* ADScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADScrollViewUITests.m; sourceTree = "<group>"; };
+		EF07CC831CC3348F00213297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF07CC531CC3348F00213297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF07CC6F1CC3348F00213297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF07CC7A1CC3348F00213297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF07CC4D1CC3348F00213297 = {
+			isa = PBXGroup;
+			children = (
+				EF07CC581CC3348F00213297 /* ADScrollView */,
+				EF07CC751CC3348F00213297 /* ADScrollViewTests */,
+				EF07CC801CC3348F00213297 /* ADScrollViewUITests */,
+				EF07CC571CC3348F00213297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF07CC571CC3348F00213297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF07CC561CC3348F00213297 /* ADScrollView.app */,
+				EF07CC721CC3348F00213297 /* ADScrollViewTests.xctest */,
+				EF07CC7D1CC3348F00213297 /* ADScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF07CC581CC3348F00213297 /* ADScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EF07CC5C1CC3348F00213297 /* AppDelegate.h */,
+				EF07CC5D1CC3348F00213297 /* AppDelegate.m */,
+				EF07CC5F1CC3348F00213297 /* ViewController.h */,
+				EF07CC601CC3348F00213297 /* ViewController.m */,
+				EF07CC621CC3348F00213297 /* Main.storyboard */,
+				EF07CC681CC3348F00213297 /* Assets.xcassets */,
+				EF07CC6A1CC3348F00213297 /* LaunchScreen.storyboard */,
+				EF07CC6D1CC3348F00213297 /* Info.plist */,
+				EF07CC651CC3348F00213297 /* ADScrollView.xcdatamodeld */,
+				EF07CC591CC3348F00213297 /* Supporting Files */,
+			);
+			path = ADScrollView;
+			sourceTree = "<group>";
+		};
+		EF07CC591CC3348F00213297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF07CC5A1CC3348F00213297 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF07CC751CC3348F00213297 /* ADScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF07CC761CC3348F00213297 /* ADScrollViewTests.m */,
+				EF07CC781CC3348F00213297 /* Info.plist */,
+			);
+			path = ADScrollViewTests;
+			sourceTree = "<group>";
+		};
+		EF07CC801CC3348F00213297 /* ADScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF07CC811CC3348F00213297 /* ADScrollViewUITests.m */,
+				EF07CC831CC3348F00213297 /* Info.plist */,
+			);
+			path = ADScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF07CC551CC3348F00213297 /* ADScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF07CC861CC3348F00213297 /* Build configuration list for PBXNativeTarget "ADScrollView" */;
+			buildPhases = (
+				EF07CC521CC3348F00213297 /* Sources */,
+				EF07CC531CC3348F00213297 /* Frameworks */,
+				EF07CC541CC3348F00213297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADScrollView;
+			productName = ADScrollView;
+			productReference = EF07CC561CC3348F00213297 /* ADScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF07CC711CC3348F00213297 /* ADScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF07CC891CC3348F00213297 /* Build configuration list for PBXNativeTarget "ADScrollViewTests" */;
+			buildPhases = (
+				EF07CC6E1CC3348F00213297 /* Sources */,
+				EF07CC6F1CC3348F00213297 /* Frameworks */,
+				EF07CC701CC3348F00213297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF07CC741CC3348F00213297 /* PBXTargetDependency */,
+			);
+			name = ADScrollViewTests;
+			productName = ADScrollViewTests;
+			productReference = EF07CC721CC3348F00213297 /* ADScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF07CC7C1CC3348F00213297 /* ADScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF07CC8C1CC3348F00213297 /* Build configuration list for PBXNativeTarget "ADScrollViewUITests" */;
+			buildPhases = (
+				EF07CC791CC3348F00213297 /* Sources */,
+				EF07CC7A1CC3348F00213297 /* Frameworks */,
+				EF07CC7B1CC3348F00213297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF07CC7F1CC3348F00213297 /* PBXTargetDependency */,
+			);
+			name = ADScrollViewUITests;
+			productName = ADScrollViewUITests;
+			productReference = EF07CC7D1CC3348F00213297 /* ADScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF07CC4E1CC3348F00213297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "叶杨杨";
+				TargetAttributes = {
+					EF07CC551CC3348F00213297 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EF07CC711CC3348F00213297 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EF07CC551CC3348F00213297;
+					};
+					EF07CC7C1CC3348F00213297 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EF07CC551CC3348F00213297;
+					};
+				};
+			};
+			buildConfigurationList = EF07CC511CC3348F00213297 /* Build configuration list for PBXProject "ADScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF07CC4D1CC3348F00213297;
+			productRefGroup = EF07CC571CC3348F00213297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF07CC551CC3348F00213297 /* ADScrollView */,
+				EF07CC711CC3348F00213297 /* ADScrollViewTests */,
+				EF07CC7C1CC3348F00213297 /* ADScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF07CC541CC3348F00213297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF07CC6C1CC3348F00213297 /* LaunchScreen.storyboard in Resources */,
+				EF07CC691CC3348F00213297 /* Assets.xcassets in Resources */,
+				EF07CC641CC3348F00213297 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF07CC701CC3348F00213297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF07CC7B1CC3348F00213297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF07CC521CC3348F00213297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF07CC671CC3348F00213297 /* ADScrollView.xcdatamodeld in Sources */,
+				EF07CC611CC3348F00213297 /* ViewController.m in Sources */,
+				EF07CC5E1CC3348F00213297 /* AppDelegate.m in Sources */,
+				EF07CC5B1CC3348F00213297 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF07CC6E1CC3348F00213297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF07CC771CC3348F00213297 /* ADScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF07CC791CC3348F00213297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF07CC821CC3348F00213297 /* ADScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF07CC741CC3348F00213297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF07CC551CC3348F00213297 /* ADScrollView */;
+			targetProxy = EF07CC731CC3348F00213297 /* PBXContainerItemProxy */;
+		};
+		EF07CC7F1CC3348F00213297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF07CC551CC3348F00213297 /* ADScrollView */;
+			targetProxy = EF07CC7E1CC3348F00213297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF07CC621CC3348F00213297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF07CC631CC3348F00213297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF07CC6A1CC3348F00213297 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF07CC6B1CC3348F00213297 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF07CC841CC3348F00213297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF07CC851CC3348F00213297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF07CC871CC3348F00213297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.ADScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF07CC881CC3348F00213297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.ADScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF07CC8A1CC3348F00213297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.ADScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADScrollView.app/ADScrollView";
+			};
+			name = Debug;
+		};
+		EF07CC8B1CC3348F00213297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.ADScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADScrollView.app/ADScrollView";
+			};
+			name = Release;
+		};
+		EF07CC8D1CC3348F00213297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.ADScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADScrollView;
+			};
+			name = Debug;
+		};
+		EF07CC8E1CC3348F00213297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.ADScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF07CC511CC3348F00213297 /* Build configuration list for PBXProject "ADScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF07CC841CC3348F00213297 /* Debug */,
+				EF07CC851CC3348F00213297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF07CC861CC3348F00213297 /* Build configuration list for PBXNativeTarget "ADScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF07CC871CC3348F00213297 /* Debug */,
+				EF07CC881CC3348F00213297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF07CC891CC3348F00213297 /* Build configuration list for PBXNativeTarget "ADScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF07CC8A1CC3348F00213297 /* Debug */,
+				EF07CC8B1CC3348F00213297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF07CC8C1CC3348F00213297 /* Build configuration list for PBXNativeTarget "ADScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF07CC8D1CC3348F00213297 /* Debug */,
+				EF07CC8E1CC3348F00213297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF07CC651CC3348F00213297 /* ADScrollView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF07CC661CC3348F00213297 /* ADScrollView.xcdatamodel */,
+			);
+			currentVersion = EF07CC661CC3348F00213297 /* ADScrollView.xcdatamodel */;
+			path = ADScrollView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF07CC4E1CC3348F00213297 /* Project object */;
+}
