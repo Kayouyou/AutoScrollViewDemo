@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ADScrollViewComponent.h"
+#import "ADCollectionView.h"
 @interface ViewController ()
 
 @end
@@ -24,6 +25,7 @@
         [images addObject:[NSString stringWithFormat:@"%02ld.jpg",i+1]];
     }
 
+    /* scrollView的实现
     ADScrollViewComponent *adScro = [ADScrollViewComponent adScrollViewWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight) imageItems:images  andImageClickCallBack:^(NSInteger index) {
        
         NSLog(@"=== %ld ===",index);
@@ -31,6 +33,31 @@
     }];
     
     [self.view addSubview:adScro];
+    */
+    
+    //collectionView的实现
+    
+    ADCollectionView *adCollectionView = [[ADCollectionView alloc]initWithFrame:CGRectMake(0, 20, CGRectGetWidth([UIScreen mainScreen].bounds), 200) dataArray:images timeInterval:3.f didselectedBlock:^(NSInteger index) {
+       
+        
+        NSLog(@"=== %ld ===",(long)index);
+        
+    }];
+    
+//    ADCollectionView *adCollectionView = [[ADCollectionView alloc]initWithFrame:CGRectMake(0, 20, CGRectGetWidth([UIScreen mainScreen].bounds), 200) dataArray:[images copy] didselectedBlock:^(NSInteger index) {
+//       
+//         NSLog(@"=== %ld ===",(long)index);
+//    }];
+
+    
+    
+    
+    
+    
+    [self.view addSubview:adCollectionView];
+    
+    
+    
     
     
     
