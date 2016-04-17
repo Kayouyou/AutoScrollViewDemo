@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ADScrollViewComponent.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSMutableArray * images = [NSMutableArray array];
+    
+    for (NSInteger i = 0; i<8; i++)
+    {
+        [images addObject:[NSString stringWithFormat:@"%02ld.jpg",i+1]];
+    }
+
+    ADScrollViewComponent *adScro = [ADScrollViewComponent adScrollViewWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight) imageItems:images  andImageClickCallBack:^(NSInteger index) {
+       
+        NSLog(@"=== %ld ===",index);
+    
+    }];
+    
+    [self.view addSubview:adScro];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
