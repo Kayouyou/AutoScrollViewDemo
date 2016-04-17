@@ -1,0 +1,2 @@
+# AutoScrollViewDemo
+一个基于UIScrollView和UICollectionView的广告轮播的demo
